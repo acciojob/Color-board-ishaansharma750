@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+body {
+	background-color: black;
+}
+
+.square {
+	width: 20px;
+	height: 20px;
+	display: inline-grid;
+	column-grap: 2px;
+	row-gap: 2px;
+	background-color: #eee;
+	margin: 0;
+	padding-left: 2px;
+}
+
+.square:hover{
+	cursor: pointer;
+	background-color: #f1f5f6;
+}
